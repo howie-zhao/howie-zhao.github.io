@@ -5,7 +5,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="article title, HOWIE">
-    <meta name="description" content="">
+    <meta name="description" content="代码样式测试这里是一段代码：
+module test_bench();
+    input  wire clk,
+    input  wire rst_n,
+    output reg data
+/*******************">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -32,7 +37,7 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0"></head>
+<meta name="generator" content="Hexo 6.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -463,7 +468,22 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h2 id="代码样式测试"><a href="#代码样式测试" class="headerlink" title="代码样式测试"></a>代码样式测试</h2><p>这里是一段代码：</p>
+<pre class=" language-verilog"><code class="language-verilog"><span class="token keyword">module</span> <span class="token function">test_bench</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">input</span>  <span class="token keyword">wire</span> clk<span class="token punctuation">,</span>
+    <span class="token keyword">input</span>  <span class="token keyword">wire</span> rst_n<span class="token punctuation">,</span>
+    <span class="token keyword">output</span> <span class="token keyword">reg</span> data
+<span class="token comment" spellcheck="true">/***********************************/</span>
+    <span class="token important">always @</span><span class="token punctuation">(</span><span class="token keyword">posedge</span> clk<span class="token punctuation">)</span> <span class="token keyword">begin</span>
+        <span class="token function">if</span><span class="token punctuation">(</span>rst<span class="token punctuation">)</span>
+            data <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">else</span> 
+            data <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">end</span>
+<span class="token keyword">endmodule</span>
+</code></pre>
+<p>这里是行内代码<code>clk</code>、<code>rst</code>的显示效果测试</p>
+
                 
             </div>
             <hr/>
