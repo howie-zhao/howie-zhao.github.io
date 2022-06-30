@@ -1,7 +1,7 @@
 /* Here is your custom css styles. */
 @font-face{
     font-family: 'LXGWWenKai';
-    src: url('../../source/diy-font/LXGWWenKai-Regular.ttf');
+    src: url('../diy-font/LXGWWenKai-Regular.ttf');
 }
 
 /** 表示全局使用，如果不想全局使用不要添加该段 */
