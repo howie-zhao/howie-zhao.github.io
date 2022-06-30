@@ -14,3 +14,11 @@ body{
 .diyFont{
     font-family: 'LXGW WenKai';
 }
+
+nav {
+    background-color: #000000;
+}
+
+.page-footer {
+    background-color: #000000;
+}
